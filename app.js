@@ -14,7 +14,7 @@ app.use(
 const appModule = require('./appmodule')
 const port = 4500 // Set your desired port number
 app.use(express.static(path.join(__dirname, 'build')))
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'))
 })
 app.get('/api', (req, res) => {
