@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cff3c7b4.css",
-    "main.js": "/static/js/main.a554e390.js",
+    "main.css": "/static/css/main.758c0930.css",
+    "main.js": "/static/js/main.39a8500c.js",
     "static/media/image.svg": "/static/media/image.51b912d53661e3a288dac89eb912c93d.svg",
     "static/media/woman smile.svg": "/static/media/woman smile.95fe6215f706fd0aeb9ec4a646ce28d7.svg",
     "static/media/image2.svg": "/static/media/image2.dc714b49d3288df3844e39af51f9e0ab.svg",
@@ -10,7 +10,6 @@
     "static/media/gamebook.svg": "/static/media/gamebook.723ea381cb4a8339a7c770a42c44d5de.svg",
     "static/media/partners.svg": "/static/media/partners.58cae551976d6bfdfae09c2ed3409852.svg",
     "static/media/imagery.svg": "/static/media/imagery.e52ef0177ec1572fb041a860b0deece4.svg",
-    "static/media/storeimage.svg": "/static/media/storeimage.9ee7906da46e009ecd9db4984ade91b2.svg",
     "static/media/swapphone.svg": "/static/media/swapphone.f5ef0eb229fefb7761d41a259b3b68b3.svg",
     "static/media/iphone14promax.svg": "/static/media/iphone14promax.57c3e73c01f6761b91aac9d06b4b1c91.svg",
     "static/media/iphoner14pro.svg": "/static/media/iphoner14pro.459d0d64cf1c34cf0cfa91d1af973f97.svg",
@@ -23,27 +22,37 @@
     "static/media/NordiquePro-Semibold.otf": "/static/media/NordiquePro-Semibold.a41bb86d3a02487f4b3e.otf",
     "static/media/hero.svg": "/static/media/hero.84b91e76ff2ab11b28a2638c58f69155.svg",
     "static/media/pngwing 2.svg": "/static/media/pngwing 2.3a86a31dfb1a054465a2394262a8cc72.svg",
+    "static/media/tecno.svg": "/static/media/tecno.a0e9615bde1e60bb51fba5c10726d771.svg",
     "static/media/shoes.svg": "/static/media/shoes.68339b69759d20635447db3316069b77.svg",
     "static/media/gaming.svg": "/static/media/gaming.4626df6245ea812e386ca64179a79bc2.svg",
     "static/media/icon.svg": "/static/media/icon.202180bb00bd1b46f7551dead149a918.svg",
     "static/media/books.svg": "/static/media/books.2dea4e0c37baad9167e733c984e611c2.svg",
     "static/media/line.svg": "/static/media/line.077cdd3d46870a9f07b83e12aaef636e.svg",
+    "static/media/contact_support.svg": "/static/media/contact_support.93fb6452838bc5ad6f5e0b295c8d7f4e.svg",
     "static/media/clothings.svg": "/static/media/clothings.bc5046e124e10537d0b3850e55191d13.svg",
     "static/media/appstore.svg": "/static/media/appstore.0ea294202a52a0ed20bf75cbe1a53982.svg",
     "index.html": "/index.html",
     "static/media/electronics.svg": "/static/media/electronics.20496a40ed9b0a7ad4f989fca5511e3a.svg",
+    "static/media/person.svg": "/static/media/person.5b9a66e6ed7948fd7540a6760be0b0ed.svg",
+    "static/media/button.svg": "/static/media/button.a30c1abd0e18e1cd9293a9447150634e.svg",
+    "static/media/local_mall.svg": "/static/media/local_mall.2491a2cb15848986ad5ef8e1a6d11ee0.svg",
+    "static/media/blackbutton.svg": "/static/media/blackbutton.38846b62d5e3dc99312a83dfed282041.svg",
     "static/media/mobilephone.svg": "/static/media/mobilephone.2e6ba06874c848dfd16a4f3c40661c8a.svg",
     "static/media/googlestore.svg": "/static/media/googlestore.7a48c768db08a4c64cd96afdf3c14d53.svg",
     "static/media/logo.svg": "/static/media/logo.3d6ebb0855a2046704ba643f0e55e12a.svg",
+    "static/media/check.svg": "/static/media/check.5f0c16c247a163d59d752448483d809e.svg",
     "static/media/success.svg": "/static/media/success.85c0e4205b5e6cab411885d5a343de2f.svg",
     "static/media/swapdeals.svg": "/static/media/swapdeals.13f2747911a21cb0cb6755023387db18.svg",
     "static/media/desktop.svg": "/static/media/desktop.ab2588048b6eb7bc2a73152fc36662c3.svg",
+    "static/media/close.svg": "/static/media/close.58fce199a22c65e9f3f417575eacd4d0.svg",
+    "static/media/cancel.svg": "/static/media/cancel.527c4a73c8825e3366d2320801ab86a2.svg",
     "static/media/arrow_drop_down.svg": "/static/media/arrow_drop_down.2a83573b5549ae2d71053088fc7b0b06.svg",
-    "main.cff3c7b4.css.map": "/static/css/main.cff3c7b4.css.map",
-    "main.a554e390.js.map": "/static/js/main.a554e390.js.map"
+    "static/media/dropdown_white.svg": "/static/media/dropdown_white.4298164c6e3205e357ecc07524ba79f8.svg",
+    "main.758c0930.css.map": "/static/css/main.758c0930.css.map",
+    "main.39a8500c.js.map": "/static/js/main.39a8500c.js.map"
   },
   "entrypoints": [
-    "static/css/main.cff3c7b4.css",
-    "static/js/main.a554e390.js"
+    "static/css/main.758c0930.css",
+    "static/js/main.39a8500c.js"
   ]
 }

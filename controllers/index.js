@@ -2,7 +2,7 @@ function controllers(app, service) {
   try {
     app.post('/api/waitlist', (req, res) => {
       const email = req.body
-
+      console.log('received request')
       service.appendEmailDataToCsvFile(email)
       res.status(201).json('created')
     })
