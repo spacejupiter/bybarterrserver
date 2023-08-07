@@ -95,9 +95,9 @@ module.exports = {
     })
   },
   appendSupportDataToCsvFile: (data) => {
-    const csvFilePath = path.join(__dirname, 'support.csv')
+    const csvFilePath = path.join(__dirname, 'support.csv')//get the filepath
 
-    fs.readFile(csvFilePath, 'utf8', (error, fileContent) => {
+    fs.readFile(csvFilePath, 'utf8', (error, fileContent) => {//read the file from the path * only reads, because file is created
       if (error) {
         console.error('Error reading the CSV file:', error)
         return
