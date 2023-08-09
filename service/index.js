@@ -38,9 +38,12 @@ module.exports = {
       }
     })
   },
+
   appendEmailDataToCsvFile: (data) => {
     const filePath = path.join(__dirname, 'email.csv')
-
+    if (data === undefined) {
+      throw Error('email data is expected')
+    }
     fs.readFile(filePath, 'utf8', (error, fileContent) => {
       if (error) {
         console.error('Error reading the CSV file:', error)
@@ -68,7 +71,7 @@ module.exports = {
         csvWriter
           .writeRecords([record])
           .then(() => {
-            console.log('Email appended to the CSV file.')
+            return 'Email appended to the CSV file.'
           })
           .catch((error) => {
             console.error('Error appending data to the CSV file:', error)
@@ -95,9 +98,10 @@ module.exports = {
     })
   },
   appendSupportDataToCsvFile: (data) => {
-    const csvFilePath = path.join(__dirname, 'support.csv')//get the filepath
+    const csvFilePath = path.join(__dirname, 'support.csv') //get the filepath
 
-    fs.readFile(csvFilePath, 'utf8', (error, fileContent) => {//read the file from the path * only reads, because file is created
+    fs.readFile(csvFilePath, 'utf8', (error, fileContent) => {
+      //read the file from the path * only reads, because file is created
       if (error) {
         console.error('Error reading the CSV file:', error)
         return
